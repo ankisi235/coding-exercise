@@ -12,7 +12,7 @@ Open the project in intelliJ and build.
 
 Select the Feature file and run the tests.
 
-Please troubleshoot any environment issue by checking suitable software versions.
+Please troubleshoot any environmental issue by checking suitable software version or project setting in the editor.
 
 alternatively launch terminal in intellij itself and run below command: 
 mvn clean install exec:java "-Dexec.mainClass=nz.co.tmsandbox.BDDMain" "-Dexec.args=-a trademe -e test -t @test -th 1 -h false -rf false" "-Dexec.cleanupDaemonThreads=false"
