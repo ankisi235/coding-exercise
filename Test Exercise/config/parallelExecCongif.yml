@@ -1,0 +1,36 @@
+#Parallel execution config
+definitions:
+streams_def: &streams
+stream_threads_count: 6
+streams:
+stream1: "@RETAIL"
+stream2: "@BPB"
+stream3: "@FCR"
+stream4: "@CIMQ"
+stream5: "GRAPIDRESPONSE"
+stream6: "@BAU"
+           kaut parallelExe cC onfig ymi.
+           SystemParameters, java
+           AdvancedSearchPage.java
+           lApiActions.java
+           winous de approval, and log oft d Login.at
+           A Laduntea
+
+bu_def: &bus
+bus_threads_count: 15
+bus: #sets are classified and grouped in combinations of small, medium, large, x-large BUs
+bu_set1: "CASSETSERVICING, CAUSTRACID, OBCOS", CCAR
+bu_set2: "CBCOSMORTGAGERELEASE"
+bu_set3: "@BUSINEssUPPORT, @CCIR, @CECRCRE"
+bu_set4: "@CEPD1, @CECRNCCP"
+bu_set5: "@CESRGOK, @DUERILIGENCE"'
+bu_set6: "@CECRRL., @CX, (CUSTOMEREXIT"
+bu_set7: "@CREDITASSESSMENT, @DDC, @GDPR"
+bu_set8: "CINTERNATIONALMANUALPAYMENT, CLEARNINGSERVICES, @PEOPLEMONES, (RAPIDRESPONSECCC"
+bu_set9: "@NAS"
+bU_set10: "GREREORMANCEANDREWARDSERVICES, CRARIORESPONSE, GRARIORESPONSEBGE, GRARIORESPONSECONTACTGEUTRE. GRAPIDRESPONSESBG, BSBC, GSPECIA"
+bu_set11: "@STATCOMPLIANCEHORIZON2REL1, QUAR"
+bu_set12: "@DIMMDM, CNUNE., aDPO"
+bu_set13: "@ECDR., @EQUIPMENTEINANCE, @FCA, GGROUPTAX"
+bu_set14: "CINTRADAYAPPROVALSANDSUPPORT, OLENDERDEVELOPMENT, COGGSTR, COCCSIS"
+bu_set15: "@SMAR, CRAPIDRESPONSEGUSTOMERCAREONBOARDING"

@@ -1,0 +1,9 @@
+trademe.baseUrl=https://www.tmsandbox.co.nz/
+
+car.baseUri=https://api.trademe.co.nz/v1
+
+
+
+//environment specific e.g.
+trademe.test.baseUrl=https://www.tmsandbox.co.nz/
+car.test.baseUri=https://api.trademe.co.nz/v1
