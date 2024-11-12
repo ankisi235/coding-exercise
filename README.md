@@ -1,1 +1,1 @@
-Read Me is in the folder
+ReadMe is in the folder
